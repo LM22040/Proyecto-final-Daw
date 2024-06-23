@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Quienes somos</a></li>
+                <li><a href="customers.html">Nuestros Clientes</a></li>
+                <li><a href="team.html">Equipo</a></li>
+                <li><a href="contact.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contactanos</h1>
+        <section>
+            <h2>Información de Contacto</h2>
+            <p>Carnet: [Tu Carnet]</p>
+            <p>Correo: [Tu Correo]</p>
+            <div>
+                <a href="https://www.facebook.com" target="_blank"><img src="/img/facebook-icon.png" alt="Facebook" style="width: 30px;"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="/img/twitter-icon.png" alt="Twitter" style="width: 30px;"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="/img/instagram-icon.png" alt="Instagram" style="width: 30px;"></a>
+            </div>
+            <a href="https://wa.me/50371639501" class="whatsapp-button">Contactar por WhatsApp</a>
+        </section>
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form action="send_email.php" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Estudio de Producción Audiovisual</p>
+        <p>Desarrollo de Aplicaciones Web</p>
+        <img src="/img/logo_ues.png" alt="Logo UES" style="width: 100px;">
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
